@@ -4,11 +4,15 @@
 void fun1()
 {
     std::cout << "fun1 " << std::endl;
+
+//   std::this_thread::sleep_for(std::chrono::seconds(2));
 }
 
 void fun2()
 {
     std::cout << "fun2 " << std::endl;
+
+//    std::this_thread::sleep_for(std::chrono::seconds(1));
 }
 
 int main()
